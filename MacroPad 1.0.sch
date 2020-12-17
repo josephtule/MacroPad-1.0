@@ -1,4 +1,162 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB1503
+P 5200 3100
+F 0 "MX?" H 5233 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 3249 20  0000 C CNN
+F 2 "" H 4575 3075 60  0001 C CNN
+F 3 "" H 4575 3075 60  0001 C CNN
+	1    5200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB2A52
+P 5750 3100
+F 0 "MX?" H 5783 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 5783 3249 20  0000 C CNN
+F 2 "" H 5125 3075 60  0001 C CNN
+F 3 "" H 5125 3075 60  0001 C CNN
+	1    5750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB3065
+P 6300 3100
+F 0 "MX?" H 6333 3323 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 3249 20  0000 C CNN
+F 2 "" H 5675 3075 60  0001 C CNN
+F 3 "" H 5675 3075 60  0001 C CNN
+	1    6300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB40CB
+P 5200 3800
+F 0 "MX?" H 5233 4023 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 3949 20  0000 C CNN
+F 2 "" H 4575 3775 60  0001 C CNN
+F 3 "" H 4575 3775 60  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB4ABC
+P 5750 3800
+F 0 "MX?" H 5783 4023 60  0000 C CNN
+F 1 "MX-NoLED" H 5783 3949 20  0000 C CNN
+F 2 "" H 5125 3775 60  0001 C CNN
+F 3 "" H 5125 3775 60  0001 C CNN
+	1    5750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB57E1
+P 6300 3800
+F 0 "MX?" H 6333 4023 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 3949 20  0000 C CNN
+F 2 "" H 5675 3775 60  0001 C CNN
+F 3 "" H 5675 3775 60  0001 C CNN
+	1    6300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB6407
+P 5200 4450
+F 0 "MX?" H 5233 4673 60  0000 C CNN
+F 1 "MX-NoLED" H 5233 4599 20  0000 C CNN
+F 2 "" H 4575 4425 60  0001 C CNN
+F 3 "" H 4575 4425 60  0001 C CNN
+	1    5200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB6D6C
+P 5750 4450
+F 0 "MX?" H 5783 4673 60  0000 C CNN
+F 1 "MX-NoLED" H 5783 4599 20  0000 C CNN
+F 2 "" H 5125 4425 60  0001 C CNN
+F 3 "" H 5125 4425 60  0001 C CNN
+	1    5750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX?
+U 1 1 5FDB75B9
+P 6300 4450
+F 0 "MX?" H 6333 4673 60  0000 C CNN
+F 1 "MX-NoLED" H 6333 4599 20  0000 C CNN
+F 2 "" H 5675 4425 60  0001 C CNN
+F 3 "" H 5675 4425 60  0001 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 3400 0    50   Input ~ 0
+Row0
+Text GLabel 4850 4750 0    50   Input ~ 0
+Row2
+Text GLabel 4850 4100 0    50   Input ~ 0
+Row1
+$Comp
+L promicro:ProMicro U?
+U 1 1 5FDACFCC
+P 5600 1950
+F 0 "U?" H 5600 2987 60  0000 C CNN
+F 1 "ProMicro" H 5600 2881 60  0000 C CNN
+F 2 "" H 5700 900 60  0000 C CNN
+F 3 "" H 5700 900 60  0000 C CNN
+	1    5600 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5350 2750 1    50   Input ~ 0
+Col0
+Text GLabel 5900 2750 1    50   Input ~ 0
+Col1
+Text GLabel 6450 2750 1    50   Input ~ 0
+Col2
+Wire Wire Line
+	5350 2750 5350 3050
+Wire Wire Line
+	5900 2750 5900 3050
+Wire Wire Line
+	6450 2750 6450 3050
+Wire Wire Line
+	5350 3050 5350 3750
+Connection ~ 5350 3050
+Wire Wire Line
+	5350 3750 5350 4400
+Connection ~ 5350 3750
+Wire Wire Line
+	5900 3750 5900 4400
+Connection ~ 5900 3750
+Wire Wire Line
+	6450 3750 6450 4400
+Connection ~ 6450 3750
+Wire Wire Line
+	6450 3050 6450 3750
+Connection ~ 6450 3050
+Wire Wire Line
+	5900 3050 5900 3750
+Connection ~ 5900 3050
 $EndSCHEMATC

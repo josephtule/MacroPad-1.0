@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/libraries/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
-  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/Libraries/ProMicroKiCad-master/promicro_library/promicro.lib)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/Libraries/MX_Alps_Hybrid.pretty/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/Libraries/--force/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
 )
