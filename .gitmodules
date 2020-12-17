@@ -7,3 +7,6 @@
 [submodule "Libraries/MX_Alps_Hybrid.pretty"]
 	path = Libraries/MX_Alps_Hybrid.pretty
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "Libraries/--force"]
+	path = Libraries/--force
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
